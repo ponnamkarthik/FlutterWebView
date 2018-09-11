@@ -1,0 +1,19 @@
+name: flutterwebview
+description: Flutter Plugin that Renders Native Webview as a widget in flutter
+version: 0.1.0
+author: Karthik Ponnam <ponnamkarthik3@gmail.com>
+homepage: https://github.com/PonnamKarthik/FlutterWebView
+
+environment:
+  sdk: ">=2.0.0-dev.47.0 <3.0.0"
+  flutter: ">=0.3.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: io.github.ponnamkarthik.flutterwebview
+    pluginClass: FlutterwebviewPlugin
+
