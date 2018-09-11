@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutterwebview/flutterwebview.dart';
+import 'package:flutter_native_web/flutterwebview.dart';
 
 void main() => runApp(new MyApp());
 

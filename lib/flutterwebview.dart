@@ -32,8 +32,8 @@ class _FlutterWebViewState extends State<FlutterWebView> {
       return AndroidView(
         viewType: 'ponnamkarthik/flutterwebview',
         onPlatformViewCreated: onPlatformCreated,
-        creationParamsCodec: const StandardMessageCodec(),
-        gestureRecognizers: [new VerticalDragGestureRecognizer(), new HorizontalDragGestureRecognizer(), new TapGestureRecognizer()],
+//        creationParamsCodec: const StandardMessageCodec(),
+//        gestureRecognizers: [new VerticalDragGestureRecognizer(), new HorizontalDragGestureRecognizer(), new TapGestureRecognizer()],
       );
     }
 

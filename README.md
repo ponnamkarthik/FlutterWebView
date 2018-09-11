@@ -1,4 +1,4 @@
-# flutterwebview
+# flutter_native_web
 
 Native WebView as a widget in flutter
 
@@ -23,13 +23,13 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 ```yaml
 
 dependencies:
-  flutterwebview: "^0.1.0"
+  flutter_native_web: "^0.1.2"
   
 ```
 
 ```dart
 
-import 'package:flutterwebview/flutterwebview.dart';
+import 'package:flutter_native_web/flutterwebview.dart';
 
 ```
 ```dart
