@@ -13,6 +13,11 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 > * Keypad is not working (No Support by flutter)
 > * Don't use inside scrollview
 
+## Screenshot
+
+<img src="https://github.com/PonnamKarthik/FlutterWebView/raw/master/screenshots/1.png" alt="Screenshot" style="width:150px;"/>
+
+
 ## How to Use
 
 ```yaml
