@@ -7,11 +7,14 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 # Supported
 
 * Android
+* iOS
 
 
 > Note
 > * Keypad is not working (No Support by flutter)
 > * Don't use inside scrollview
+
+> * onPageStarted, onPageFinished Only works with Android
 
 ## Screenshot
 
@@ -23,7 +26,7 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 ```yaml
 
 dependencies:
-  flutter_native_web: "^0.1.2"
+  flutter_native_web: "^1.0.0"
   
 ```
 
@@ -80,11 +83,23 @@ FlutterWebView flutterWebView = new FlutterWebView(
 
 ### Android
 
-Ensure the following permission is present in your Android Manifest file, located in `<project root>/android/app/src/main/AndroidManifest.xml:
+Ensure the following permission is present in your Android Manifest file, located in project `/android/app/src/main/AndroidManifest.xml`:
 
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
+
+### iOS
+
+Opt-in to the embedded views preview by adding a boolean property to the app's `Info.plist` file
+with the key `io.flutter.embedded_views_preview` and the value `YES`.
+
+```plist
+	<key>io.flutter.embedded_views_preview</key>
+	<string>YES</string>
+```
+
+
 
 ## Coming soon
 
