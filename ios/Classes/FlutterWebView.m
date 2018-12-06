@@ -49,11 +49,6 @@
       [weakSelf onMethodCall:call result:result];
     }];
 
-    // NSString* initialUrl = args[@"initialUrl"];
-    NSString* initialUrl = @"https://google.com/";
-    if (initialUrl) {
-      [self loadUrl:initialUrl];
-    }
   }
   return self;
 }
