@@ -33,7 +33,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "io.github.ponnamkarthik.flutterwebview.flutterwebviewexample"
+        applicationId "io.github.ponnamkarthik.flutterwebview.flutternativewebexample"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode flutterVersionCode.toInteger()

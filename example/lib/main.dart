@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_native_web/flutterwebview.dart';
+import 'package:flutter_native_web/flutter_native_web.dart';
 
 void main() => runApp(new MyApp());
 
@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
 
-    FlutterWebView flutterWebView = new FlutterWebView(
+    FlutterNativeWeb flutterWebView = new FlutterNativeWeb(
       onWebCreated: onWebCreated,
     );
 
