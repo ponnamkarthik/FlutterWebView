@@ -12,7 +12,10 @@ class FlutterNativeWeb extends StatefulWidget {
   const FlutterNativeWeb({
     Key key,
     @required this.onWebCreated,
+    this.gestureRecognizers
   }) : super(key: key);
+
+  final Set<Factory<OneSequenceGestureRecognizer>> gestureRecognizers;
 
   final WebViewCreatedCallback onWebCreated;
 
@@ -29,15 +32,15 @@ class _FlutterNativeWebState extends State<FlutterNativeWeb> {
       return AndroidView(
         viewType: 'ponnamkarthik/flutterwebview',
         onPlatformViewCreated: onPlatformCreated,
+        gestureRecognizers: widget.gestureRecognizers,
         creationParamsCodec: const StandardMessageCodec(),
 //        creationParamsCodec: const StandardMessageCodec(),
-//        gestureRecognizers: [new VerticalDragGestureRecognizer(), new HorizontalDragGestureRecognizer(), new TapGestureRecognizer()],
       );
     } else if (defaultTargetPlatform == TargetPlatform.iOS) {
       return UiKitView(
         viewType: 'ponnamkarthik/flutterwebview',
         onPlatformViewCreated: onPlatformCreated,
-        // gestureRecognizers: widget.gestureRecognizers,
+        gestureRecognizers: widget.gestureRecognizers,
         // creationParams: _CreationParams.fromWidget(widget).toMap(),
         creationParamsCodec: const StandardMessageCodec(),
       );

@@ -1,6 +1,6 @@
 name: flutter_native_web
 description: Flutter Plugin that Renders Native Webview as a widget in flutter
-version: 1.0.0
+version: 1.0.1
 author: Karthik Ponnam <ponnamkarthik3@gmail.com>
 homepage: https://github.com/PonnamKarthik/FlutterWebView
 
@@ -11,8 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-flutter:
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
 
+# The following section is specific to Flutter.
+flutter:
   plugin:
     androidPackage: io.github.ponnamkarthik.flutterwebview
     pluginClass: FlutterNativeWebPlugin

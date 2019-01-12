@@ -2,7 +2,7 @@
 
 Native WebView as a widget in flutter
 
-Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/widgets/AndroidView-class.html)
+Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/widgets/AndroidView-class.html) and [UiKitView](https://docs.flutter.io/flutter/widgets/UiKitView-class.html)
 
 # Supported
 
@@ -26,7 +26,7 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 ```yaml
 
 dependencies:
-  flutter_native_web: "^1.0.0"
+  flutter_native_web: "^1.0.1"
   
 ```
 

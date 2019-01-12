@@ -1,3 +1,7 @@
+## 1.0.1
+
+* loadData method iOS Support added
+
 ## 1.0.0
 
 * iOS Support Added
