@@ -123,7 +123,7 @@ public class FlutterWeb implements PlatformView, MethodCallHandler {
                 break;
             case "loadData":
                 String html = call.arguments.toString();
-                webView.loadData(html, "text/html", "utf-8");
+                webView.loadDataWithBaseURL(null, html, "text/html", "utf-8",null);
                 break;
             default:
                 result.notImplemented();
