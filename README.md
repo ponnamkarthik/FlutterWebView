@@ -26,7 +26,7 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 ```yaml
 
 dependencies:
-  flutter_native_web: "^1.0.1"
+  flutter_native_web: "^1.0.2"
   
 ```
 

@@ -1,5 +1,9 @@
 ## 1.0.1
 
+* bug fixes
+
+## 1.0.1
+
 * loadData method iOS Support added
 
 ## 1.0.0
