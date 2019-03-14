@@ -12,7 +12,7 @@ public class FlutterwebviewFactory extends PlatformViewFactory {
     private final Registrar mPluginRegistrar;
 
     public FlutterwebviewFactory(Registrar registrar) {
-        super();
+        super(null);
         mPluginRegistrar = registrar;
     }
 
