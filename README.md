@@ -12,7 +12,7 @@ Inline WebView in flutter using [AndroidView](https://docs.flutter.io/flutter/wi
 
 > Note
 > * Keypad is not working (No Support by flutter)
-> * Don't use inside scrollview
+> * Basic example of using in a ListView: https://github.com/peeto/scrollable_flutter_web_view_example
 
 > * onPageStarted, onPageFinished Only works with Android
 
